@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
+set(OPEN62541_VERSION "v1.2.2-3267-g5e69aad2c")
 
 # Default android platform of android.toolchain.cmake is "19" but we need "24" for "epoll_create1" and "<ifaddrs.h>"
 set(ANDROID_PLATFORM 24)
